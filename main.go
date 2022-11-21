@@ -4,10 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"os"
-
-	"github.com/vsouza/go-gin-boilerplate/config"
-	"github.com/vsouza/go-gin-boilerplate/db"
-	"github.com/vsouza/go-gin-boilerplate/server"
+	"webserver/main/config"
+	"webserver/main/db"
+	"webserver/main/server"
 )
 
 func main() {

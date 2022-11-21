@@ -2,9 +2,9 @@ package middlewares
 
 import (
 	"strings"
+	"webserver/main/config"
 
 	"github.com/gin-gonic/gin"
-	"github.com/vsouza/go-gin-boilerplate/config"
 )
 
 func AuthMiddleware() gin.HandlerFunc {
