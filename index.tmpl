@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>
+{{
+.title
+}}
+</title>
+</head>
+<body>
+<h1>My First Web Page</h1>
+{{
+if .Login
+}}
+<p>You are logged in</p>
+{{
+else if .error
+}}
+<p>You are not loggedIn</p>
+{{end}}
+</body>
+</html>
